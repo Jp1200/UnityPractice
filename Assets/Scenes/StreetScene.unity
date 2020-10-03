@@ -121,6 +121,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &260678117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5963244249755159383, guid: 617a69377d39a47ff9682258356a6ae2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5416875414121347021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &260678118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260678117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cbc583abcdf48a8ad8591022d1f6ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,7 +178,7 @@ Light:
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
+    m_Bias: 0.16
     m_NormalBias: 0.4
     m_NearPlane: 0.2
     m_CullingMatrixOverride:
@@ -211,7 +229,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 47.831, y: 191.926, z: -129.513}
 --- !u!1001 &714960429
 PrefabInstance:
@@ -258,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 3414322411487016116, guid: 617a69377d39a47ff9682258356a6ae2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3414322411487016116, guid: 617a69377d39a47ff9682258356a6ae2,
         type: 3}
@@ -363,7 +381,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1754047754
 PrefabInstance:
@@ -415,7 +433,7 @@ PrefabInstance:
     - target: {fileID: 1892720114966746038, guid: 1c71f63e070fb4a36808bf51872de9dd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1892720114966746038, guid: 1c71f63e070fb4a36808bf51872de9dd,
         type: 3}
@@ -513,7 +531,7 @@ PrefabInstance:
     - target: {fileID: 3414322411487016116, guid: 617a69377d39a47ff9682258356a6ae2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.38
       objectReference: {fileID: 0}
     - target: {fileID: 3414322411487016116, guid: 617a69377d39a47ff9682258356a6ae2,
         type: 3}
